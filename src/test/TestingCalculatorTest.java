@@ -1,4 +1,4 @@
-package test.java;
+package test;
 
 import main.java.Calc;
 import org.junit.jupiter.api.Test;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Testing Calculator")
-class TestingCalculator {
+class TestingCalculatorTest {
 
   private Calc calc;
 
