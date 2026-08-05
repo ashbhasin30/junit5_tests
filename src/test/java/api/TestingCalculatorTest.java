@@ -1,6 +1,6 @@
-package test;
+package api;
 
-import main.java.Calc;
+import models.Calc;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

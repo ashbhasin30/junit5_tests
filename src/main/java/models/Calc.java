@@ -1,4 +1,4 @@
-package code;
+package models;
 
 public class Calc {
 
