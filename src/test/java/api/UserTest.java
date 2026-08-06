@@ -28,7 +28,7 @@ public class UserTest {
                 .contentType(ContentType.JSON)
                 .pathParam("id", testUserId)
                 .when()
-                .get("/users/")
+                .get("/users/{id}")
                 .then()
                 .statusCode(200)
                 .extract()
